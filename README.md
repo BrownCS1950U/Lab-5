@@ -1,6 +1,6 @@
-# Object / Mesh Viewer
+# Audio / Terrain Generation
 
-The following repository contains the implementation of a basic mesh/object viewer for `.obj` files. The project has been implemented in C++ using OpenGL and GLSL.
+This repository contains an implementation of 3D audio and quad based terrain generation.
 
 ## Usage
 
@@ -12,5 +12,5 @@ To compile, create a directory called `build` and create Makefile using the cmak
 
 Once the project is compiled, the binary is directed to a `bin` directory, and takes the `.obj` mesh as a command line argument
 
-    ./bin/viewer objects/bunny.obj
+    ./bin/viewer sponza/sponza.obj
 
